@@ -1,0 +1,32 @@
+@charset "utf-8";
+@import "../node_modules/bulma/sass/utilities/initial-variables.sass";
+
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+$primary: $orange;
+$link: $blue;
+$info: $purple;
+$success: $green;
+$warning: $yellow;
+$danger: $red;
+$dark: $grey-darker;
+$text: $grey-dark;
+
+@import "../node_modules/bulma/bulma";
+
+
+.hero.is-info .navbar-item, .hero.is-info .navbar-link {
+    color: rgba(55, 55, 55, 0.7);
+}
+
+//// Or only include what you need!!!
+//@import "../node_modules/bulma/sass/utilities/_all.sass";
+//@import "../node_modules/bulma/sass/base/_all.sass";
+//@import "../node_modules/bulma/sass/elements/button.sass";
+//@import "../node_modules/bulma/sass/elements/container.sass";
+//@import "../node_modules/bulma/sass/elements/form.sass";
+//@import "../node_modules/bulma/sass/elements/title.sass";
+//@import "../node_modules/bulma/sass/components/navbar.sass";
+//@import "../node_modules/bulma/sass/layout/hero.sass";
+//@import "../node_modules/bulma/sass/layout/section.sass";
